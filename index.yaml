@@ -2,11 +2,34 @@ apiVersion: v1
 entries:
   wordpress:
   - apiVersion: v1
-    appVersion: 5.5.2
-    created: "2020-04-05T09:19:32.380648673Z"
+    appVersion: 5.6.2
+    created: "2020-04-05T09:28:16.730359818Z"
     deprecated: true
     description: An updated version
-    digest: 152fe6a4f85542ef6fc914acc621f5cacf2cc2c464a7e1e0c8d461d993df5e40
+    digest: 3e92b2b14447cc483639c3c54423f34b067509919b300e052dfc8a0b62a59472
+    engine: gotpl
+    home: http://www.wordpress.com/
+    icon: https://bitnami.com/assets/stacks/wordpress/img/wordpress-stack-220x234.png
+    keywords:
+    - wordpress
+    - cms
+    - blog
+    - http
+    - web
+    - application
+    - php
+    name: wordpress
+    sources:
+    - https://github.com/bitnami/bitnami-docker-wordpress
+    urls:
+    - wordpress-9.6.2.tgz
+    version: 9.6.2
+  - apiVersion: v1
+    appVersion: 5.5.2
+    created: "2020-04-05T09:28:16.726901459Z"
+    deprecated: true
+    description: An updated version
+    digest: f113c5eda66c025ca220f23a0f7ca771ce320a34d6af5ca2ddd0d397419df22a
     engine: gotpl
     home: http://www.wordpress.com/
     icon: https://bitnami.com/assets/stacks/wordpress/img/wordpress-stack-220x234.png
@@ -24,4 +47,4 @@ entries:
     urls:
     - wordpress-9.5.2.tgz
     version: 9.5.2
-generated: "2020-04-05T09:19:32.378005455Z"
+generated: "2020-04-05T09:28:16.723190616Z"
